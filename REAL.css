@@ -1,0 +1,253 @@
+/*/home/*/
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: century gothic;
+}
+.huhu {
+	width: 80%;
+	margin : auto;
+}
+.navbar{
+	margin : 25px auto;
+	display: flex;
+	align-items: center;
+}
+ul {
+	flex: 1;
+	text-align: right;
+}
+ul li {
+	display: inline-block;
+	list-style: none;
+	margin: 0 25px;
+}
+ul li a{
+	text-decoration: none;
+	color: black;
+	padding: 0px 5px;	
+	position: relative;
+}
+.navbar ul li a::after {
+	content: '';
+	width: 0px;
+	height: 10px;
+	background: #FF9999;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: -55px;
+	transition: 0.5s;
+}
+.navbar ul li a:hover::after{
+	width: 100%;
+}
+.tengah {
+	display: flex;
+	margin-top: 80px;
+}
+.kiri{
+	flex-basis: 60%;
+}
+.kanan{
+	flex-basis: 40%;
+}
+.kanan img{
+	width: 370px;
+}
+.kiri h1{
+	font-size: 65px;
+}
+.kiri h1 span {
+	color: #FF9999;
+}
+.kiri h3 {
+	font-size: 30px;
+	color: #FF9999;
+}
+.kiri h4 {
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 35px;
+	letter-spacing: 0.025cm;
+	padding-right: 30px;
+}
+.foot p{
+	width: 100%;
+	background-color: #FF9999;
+	color: white;
+}
+
+/*/regis/*/
+.input {
+	position: relative;
+	width: 400px;
+	margin: 6% auto;
+	font-size: 50px;
+	font-weight: bold;
+}
+.hihi {
+	width: 400px;
+	height: 60px;
+	background-color: #FF9999;
+}
+.ip{
+	width: 100%;
+	padding: 10px 0;
+	margin: 5px 0;
+	border-left: 0;
+	border-bottom: 2px solid black;
+	border-right: 0;
+	border-top: 0; 
+	outline: none;
+}
+.btn {
+	width: 30%;
+	padding: 10px 10px;
+	margin: 0px 35px;
+	outline: none;
+	border:1px solid #FF9999;
+	background: #FF9999;
+	border-radius: 20px;
+	box-shadow: 0 2px 10px #FF9999;
+	cursor: pointer;
+}
+/*/contact/*/
+.kotak{
+	width: cover;
+  	height: 350px;
+ 	background: #FF9999;
+ 	margin-top: 45px;
+ 	position: relative;
+ 	padding: 10px;
+}
+.hue img{
+	margin-left: 45%;
+	margin-top: 0px;
+}
+.hue h1{
+	margin-left: 35%;
+	margin-top: 60px;
+	font-size: 50px;
+}
+.hue p{
+	line-height: 35px;
+	letter-spacing: 0.025cm;
+	text-align: center;
+}
+.kotak h3{
+	margin-left: 39%;
+	margin-top: 0px;
+	color: white;
+	font-size: 30px;
+}
+.sosial img{
+	margin-left: 23%;
+	margin-top: 40px;
+}
+.kotak ul {
+	margin-right: 9%;
+}
+.kotak ul li{
+	padding-right: 60px;
+	padding-left: 60px;
+	padding-top: 30px;
+}
+/*/service/*/
+.isi {
+	display: flex;
+	margin-top: 80px;
+}
+.left{
+	flex-basis: 50%;
+}
+.right{
+	flex-basis: 50%;
+}
+.right img {
+	padding-left: 25%;
+}
+.left h1 {
+	text-align: right;
+	padding-right: 30px;
+	font-size: 40px;
+	color: #FF9999;
+}
+.left h3 {
+	text-align: right;
+	padding-right: 30px;
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 35px;
+	letter-spacing: 0.025cm;
+}
+.right h1 {
+	font-size: 40px;
+	color: #FF9999;
+}
+.right h3 {
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 35px;
+	letter-spacing: 0.025cm;
+}
+.huhu h2 {
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+}
+.huhu p {
+	line-height: 35px;
+	letter-spacing: 0.025cm;
+	text-align: center;
+}
+/*/potofolio/*/
+.hala{
+	font-size: 25px;
+}
+.aye {
+	display: flex;
+	margin-top: 80px;
+}
+.tengen{
+	flex-basis: 50%;
+}
+.kiwo{
+	flex-basis: 50%;
+}
+.aye p{
+	padding: 7px 30px;
+	margin-right: 15px;
+	outline: none;
+	border:1px solid #FF9999;
+	background: #FF9999;
+	border-radius: 20px;
+	width: 100px;
+	box-shadow: 0 2px 10px #FF9999;
+
+}
+p a{
+	text-decoration: none;
+	color: black;
+}
+/*/portofoliodirect/*/
+.ok {
+	display: flex;
+	margin-top: 80px;
+}
+.satu{
+	flex-basis: 30%;
+}
+.dua{
+	flex-basis: 40%;
+}
+.tiga {
+	flex-basis: 30%
+}
+.haha h1{
+	padding-top: 100px;
+	width: 100%;
+	height: 280px;
+	background-color: #FF9999;
+	font-size: 30px;
+}
