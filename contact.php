@@ -29,7 +29,7 @@
 				<img src="line.png" height="30px">
 			</div>
 			<ul>
-			<li><a href="https://web.whatsapp.com/">0898372832</a></li>
+			<li><a href="https://web.whatsapp.com/"> 08983728324</a></li>
 			<li><a href="https://www.instagram.com/?hl=id">@plantadecor</a></li>
 			<li><a href="https://line.me/id/">@plantadecor</a></li>
 			</ul>

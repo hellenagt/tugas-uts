@@ -22,7 +22,7 @@
 	
 </body>
 </html>
-	<?php
+<?php
 		include 'koneksi.php';
 		$name = $_POST['name'];
 		$phone = $_POST['phone'];
